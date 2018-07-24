@@ -1,0 +1,25 @@
+{
+    "name": "soldierm/di",
+    "description": "A simple di container for php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhou",
+            "email": "zhou@startdawn.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "container"
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "psr/container": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Soldierm\\": "./src"
+        }
+    }
+}
